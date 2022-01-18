@@ -15,6 +15,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 public class Login_check extends Base {
  
 	Home home;
+
 	
     public WebDriver driver;	
 	@BeforeTest
@@ -30,6 +31,7 @@ public class Login_check extends Base {
 	public void Go_home() throws IOException, InterruptedException {
 		String url=url();
 		driver.get(prop.getProperty("url"));
+	System.out.println("Got branch code added");
 	}
 	@Test(dataProvider="getdata")
 	public void logincheck(String mobile,String pass) throws InterruptedException, IOException {
