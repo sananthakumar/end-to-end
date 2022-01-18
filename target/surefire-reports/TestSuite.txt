@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 34.402 s <<< FAILURE! - in TestSuite
+gettitle(Firstproject.E2E.Base_page_navigation)  Time elapsed: 0.053 s  <<< FAILURE!
+java.lang.AssertionError: expected [Flipkart] but found [Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!]
+	at Firstproject.E2E.Base_page_navigation.gettitle(Base_page_navigation.java:42)
+
